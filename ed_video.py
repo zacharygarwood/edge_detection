@@ -15,9 +15,10 @@ while True:
 
     # applies canny filter to video stream
     # can change the two values in Canny() to adjust the noise
-    # lower values = more noise   high values = less noise
+    # lower values = more noise     high values = less noise
     edges = cv.Canny(frame, 90, 90)
     cv.imshow('Canny', edges)
+
     if cv.waitKey(5) == ord('x'):
         break
 
