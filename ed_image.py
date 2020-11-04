@@ -22,7 +22,7 @@ image = imutils.resize(image, height=500)
 # in the image
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 gray = cv2.GaussianBlur(gray, (5, 5), 0)
-edged = cv2.Canny(gray, 75, 200)
+edged = cv2.Canny(gray, 100, 100)
 
 # show the original image and the edge detected image
 print("STEP 1: Edge Detection")
