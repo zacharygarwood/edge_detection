@@ -1,1 +1,2 @@
+# Edge Detection
 These were two projects I did to learn more about edge detection. The ed_image.py was my first attempt at edge detection, and it takes in an image and outputs that image with the Canny filter from the OpenCV library applied to it. The second project, ed_video.py, dealth with very similar code but now instead of using an image, I decided to use the webcam on my laptop and detect edges through the webcams video. 
